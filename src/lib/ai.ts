@@ -299,7 +299,7 @@ function deterministicTelephonyEngine(transcript: string, callerNumber: string):
     voiceAgentResponse: isEmergency
       ? "I understand this is an emergency. I have flagged your location for immediate dispatch to our on-call supervisor, and you'll receive an instant confirmation on WhatsApp right now."
       : "Thank you for providing those details. I have logged your request in our project queue, and our estimation coordinator will follow up with full details shortly.",
-    wappiWhatsAppMessage: `👋 *Stuart & Co Construction / Telephony Support*\n\nThank you for calling our Glasgow office. We have logged your request:\n\n📋 *Intent:* ${intent}\n📍 *Location:* ${postcode}\n⚡ *Priority:* ${urgency}\n📞 *Caller ID:* ${callerNumber}\n\nOur duty supervisor has been alerted. If you need to send photos of the site or documentation, you can reply directly to this WhatsApp message.\n\n_System ref: RTLL-${Date.now().toString().slice(-6)}_`,
+    wappiWhatsAppMessage: `*Stuart & Co Client Support*\nRef: RTLL-${Date.now().toString().slice(-6)}\n\nThank you for contacting our Glasgow office. We have logged your request:\nService: ${intent}\nPostcode: ${postcode}\nPriority: ${urgency}\nCaller Line: ${callerNumber}\n\nOur duty team has received your details. Reply directly to this thread to attach job photos, specifications, or site access details.`,
     makeRouteAction: makeAction,
   };
 }

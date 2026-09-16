@@ -3,12 +3,12 @@
 Production Scope & Formal Estimate Generator
 CallGuard Ops • AI Telephone Answering & Multi-Vendor Telephony Support Cockpit
 Client: Stuart & Co (Manufacturing & Construction, Glasgow, Scotland, UK)
-Commercial Options:
-- Package A: Dedicated Part-Time Retainer ($50.00/hr, 10 hrs/wk min = $500/wk)
-- Package B: Pure Adhoc On-Demand ($80.00/hr, zero minimum commitment)
+Two Commercial Engagement Packages:
+- Option A (Recommended): Part-Time Support Retainer ($50.00/hr, 10 hrs/wk min = $500.00/wk)
+- Option B (Pure Adhoc): On-Demand Technical Support ($80.00/hr, zero minimum commitment)
 Built to exact BarakahSoft Gold-Standard Architecture:
 - 6 Direct Flex Children (Zero Middle Void)
-- High-Density 6-Row Scope Table with Percentage Allocations
+- High-Density 6-Row Scope Table with Light Slate Header (#f1f5f9)
 - Verified Upwork Partner Credentials (Never "Top Rated")
 - Dual Signature Block with Formal Authorization
 - Inlined Base64 Assets and Headless Chrome Single-Page PDF Audit
@@ -40,7 +40,7 @@ def build_estimate():
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Part-Time Telephony Support Scope &amp; Rate Structure - Stuart &amp; Co</title>
+  <title>Production Scope &amp; Formal Estimate - CallGuard Ops Telephony Support</title>
   <style>
     @page {{
       size: letter portrait;
@@ -61,566 +61,692 @@ def build_estimate():
     body {{
       font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       color: #0f172a;
-      line-height: 1.25;
-      font-size: 8.4px;
+      line-height: 1.32;
+      font-size: 9.3px;
     }}
-    .sheet {{
+
+    .page-container {{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       height: 100%;
-      max-height: 100%;
-      padding: 0;
       box-sizing: border-box;
+      gap: 5px;
     }}
 
-    /* 1. Header Component */
+    /* 1. Executive Header */
     .header {{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 12px;
       border-bottom: 2px solid #4f46e5;
       padding-bottom: 5px;
     }}
-    .brand-group {{
-      display: flex;
-      align-items: center;
-      gap: 8px;
+    .header-left {{
+      flex: 1;
+      min-width: 0;
     }}
-    .brand-logo {{
-      width: 28px;
-      height: 28px;
-      object-fit: contain;
+    .brand-title {{
+      font-size: 8.5px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #4f46e5;
+      margin-bottom: 2px;
+      white-space: nowrap;
     }}
-    .brand-text h1 {{
-      margin: 0;
-      font-size: 13px;
+    h1 {{
+      font-size: 13.5px;
       font-weight: 800;
       color: #0f172a;
+      margin: 0 0 2px 0;
       letter-spacing: -0.02em;
+      line-height: 1.18;
+      white-space: nowrap;
     }}
-    .brand-text .tagline {{
-      font-size: 7.6px;
-      color: #64748b;
-      font-weight: 500;
-    }}
-    .doc-meta {{
-      text-align: right;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 7.6px;
+    .subtitle {{
+      font-size: 8.5px;
       color: #475569;
+      margin: 0;
       line-height: 1.25;
+      white-space: nowrap;
     }}
-    .meta-badge {{
-      display: inline-block;
-      background: #eef2ff;
-      color: #4338ca;
-      font-weight: 700;
-      padding: 1.5px 5px;
-      border-radius: 3px;
-      border: 1px solid #c7d2fe;
-      margin-bottom: 1.5px;
-    }}
-
-    /* 2. Systems Capability & Context Box */
-    .context-box {{
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
+    .meta-card {{
+      flex-shrink: 0;
       background: #f8fafc;
-      padding: 5px 8px;
-    }}
-    .context-grid {{
-      display: grid;
-      grid-template-columns: 1.3fr 1fr 1fr;
-      gap: 8px;
-      font-size: 7.9px;
-    }}
-    .context-item strong {{
-      color: #334155;
-      display: block;
-      font-size: 7.4px;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      margin-bottom: 1px;
-    }}
-    .context-item span {{
-      color: #0f172a;
-      font-weight: 600;
-    }}
-    .exec-summary {{
-      margin-top: 3.5px;
-      padding-top: 3.5px;
-      border-top: 1px solid #e2e8f0;
-      font-size: 7.8px;
-      color: #334155;
-      line-height: 1.25;
-    }}
-
-    /* 3. Scope & Work Breakdown Table */
-    .table-container {{
       border: 1px solid #cbd5e1;
       border-radius: 6px;
-      overflow: hidden;
-      background: #ffffff;
-    }}
-    table {{
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 7.8px;
-    }}
-    th {{
-      background: #0f172a;
-      color: #ffffff;
-      font-weight: 700;
-      text-align: left;
-      padding: 3.5px 6px;
-      font-size: 7.6px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-    }}
-    th.num {{
+      padding: 5px 10px;
+      font-size: 8.2px;
       text-align: right;
+      line-height: 1.35;
+      white-space: nowrap;
     }}
-    td {{
-      padding: 3.5px 6px;
-      border-bottom: 1px solid #f1f5f9;
-      color: #1e293b;
-      vertical-align: middle;
+    .meta-card strong {{
+      color: #0f172a;
     }}
-    tr:last-child td {{
-      border-bottom: none;
-    }}
-    tr.phase0 {{
-      background: #f5f3ff;
-      font-weight: 600;
-    }}
-    tr.total-row {{
-      background: #eef2ff;
-      font-weight: 800;
-      border-top: 1.5px solid #4f46e5;
-    }}
-    td.num {{
-      text-align: right;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    }}
-    .phase-pill {{
+    .live-badge {{
       display: inline-block;
-      padding: 1px 4px;
-      border-radius: 3px;
-      font-size: 7.2px;
-      font-weight: 700;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    }}
-    .pill-live {{
-      background: #dcfce7;
-      color: #166534;
-      border: 1px solid #86efac;
-    }}
-    .pill-core {{
       background: #e0e7ff;
       color: #3730a3;
       border: 1px solid #c7d2fe;
+      font-weight: 700;
+      padding: 1px 5px;
+      border-radius: 9999px;
+      font-size: 8px;
+      text-transform: uppercase;
+      margin-left: 3px;
     }}
 
-    /* 4. Two Commercial Packages */
-    .packages-grid {{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
+    /* 2. Scope & Milestones Table */
+    .scope-block {{
+      margin-top: 0;
     }}
-    .package-card {{
-      border: 1.5px solid #c7d2fe;
-      border-radius: 6px;
-      background: #faf5ff;
-      padding: 5px 8px;
-    }}
-    .package-card.recommended {{
-      border-color: #4f46e5;
-      background: #eef2ff;
-    }}
-    .package-header {{
+    .section-header {{
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 3px;
     }}
-    .package-title {{
+    .section-title {{
+      font-size: 9.4px;
       font-weight: 800;
-      font-size: 8.5px;
-      color: #312e81;
       text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0f172a;
+      border-left: 3px solid #4f46e5;
+      padding-left: 6px;
+      margin: 0;
     }}
-    .package-rate {{
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 9.5px;
-      font-weight: 800;
-      color: #4338ca;
+    .section-meta {{
+      font-size: 8.2px;
+      color: #64748b;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     }}
-    .package-details {{
-      font-size: 7.6px;
+    table {{
+      width: 100%;
+      border-collapse: collapse;
+    }}
+    th {{
+      background: #f1f5f9;
       color: #334155;
-      line-height: 1.3;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 8.1px;
+      letter-spacing: 0.04em;
+      border: 1px solid #cbd5e1;
+      padding: 3.5px 6px;
+      text-align: left;
     }}
-    .package-perks {{
-      margin: 2px 0 0 0;
-      padding-left: 12px;
-      font-size: 7.4px;
+    td {{
+      border: 1px solid #e2e8f0;
+      padding: 3.5px 6px;
+      font-size: 8.4px;
+      vertical-align: top;
+    }}
+    .phase-num {{
+      font-weight: 800;
+      color: #1e293b;
+      font-size: 8.4px;
+      white-space: nowrap;
+    }}
+    .phase-name {{
+      font-weight: 700;
+      color: #0f172a;
+      font-size: 8.6px;
+    }}
+    .phase-desc {{
       color: #475569;
+      font-size: 7.8px;
+      margin-top: 1px;
+      line-height: 1.2;
+    }}
+    .phase-0-row {{
+      background: #f5f3ff;
+    }}
+    .phase-0-badge {{
+      color: #4338ca;
+      font-weight: 800;
+    }}
+    .total-row {{
+      background: #0f172a;
+      color: #ffffff;
+      font-weight: 800;
+      border: 1px solid #0f172a;
+    }}
+    .total-row td {{
+      border: 1px solid #0f172a;
+      padding: 4px 6px;
+      font-size: 8.6px;
     }}
 
-    /* 5. Telephony Architecture & Resilience Guardrails */
-    .guardrails-box {{
+    /* 3. 2-Column Technical & Financial Breakdown */
+    .grid-2col {{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }}
+    .card-box {{
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: #fbfbfa;
+      padding: 4.5px 8px;
+    }}
+    .card-box-title {{
+      font-size: 8.3px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #0f172a;
+      margin: 0 0 2.5px 0;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+    }}
+    .milestone-item {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+      border-bottom: 1px dotted #cbd5e1;
+      padding: 1.8px 0;
+      font-size: 7.7px;
+    }}
+    .milestone-item:last-child {{
+      border-bottom: none;
+      padding-bottom: 0;
+    }}
+    .milestone-name {{
+      color: #334155;
+    }}
+    .milestone-val {{
+      font-weight: 800;
+      color: #0f172a;
+      font-family: ui-monospace, monospace;
+      white-space: nowrap;
+    }}
+    .guardrail-item {{
+      font-size: 7.7px;
+      color: #334155;
+      margin-bottom: 1.8px;
+      padding-left: 10px;
+      position: relative;
+      line-height: 1.2;
+    }}
+    .guardrail-item:last-child {{
+      margin-bottom: 0;
+    }}
+    .guardrail-item::before {{
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #4f46e5;
+      font-weight: 800;
+      font-size: 7.5px;
+    }}
+
+    /* 4. Commercial Terms Section */
+    .terms-box {{
       border: 1px solid #cbd5e1;
       border-radius: 6px;
       background: #ffffff;
       padding: 4.5px 8px;
     }}
-    .guardrails-title {{
-      font-size: 7.8px;
-      font-weight: 800;
-      color: #0f172a;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      margin-bottom: 2px;
-      display: flex;
-      justify-content: space-between;
-    }}
-    .guardrails-grid {{
+    .terms-grid {{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 6px;
-      font-size: 7.5px;
+      gap: 7px;
     }}
-    .guardrail-item {{
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      border-radius: 4px;
-      padding: 3px 5px;
-      color: #334155;
+    .term-col {{
+      font-size: 7.7px;
+      line-height: 1.2;
     }}
-    .guardrail-item strong {{
+    .term-title {{
+      font-weight: 800;
       color: #4f46e5;
-      display: block;
-      font-size: 7.3px;
+      text-transform: uppercase;
+      font-size: 7.6px;
       margin-bottom: 1px;
     }}
+    .term-body {{
+      color: #475569;
+    }}
 
-    /* 6. Dual Signature Authorization Footer */
+    /* 5. Formal Acceptance Authorization Block */
     .auth-block {{
-      border: 1px solid #94a3b8;
+      border: 1px solid #cbd5e1;
       border-radius: 6px;
-      background: #f8fafc;
-      padding: 4.5px 8px;
+      background: #fbfbfa;
+      padding: 5px 10px;
     }}
     .auth-title {{
-      font-size: 8px;
+      font-size: 8.3px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       color: #0f172a;
-      margin-bottom: 2.5px;
+      margin-bottom: 3px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-bottom: 1px solid #cbd5e1;
-      padding-bottom: 1.5px;
+      padding-bottom: 2px;
     }}
     .auth-grid {{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10px;
+      gap: 12px;
     }}
     .auth-party {{
       display: flex;
       flex-direction: column;
-      gap: 1px;
-      font-size: 7.7px;
+      gap: 2px;
+      font-size: 7.8px;
     }}
     .auth-party-title {{
       font-weight: 700;
       color: #334155;
       text-transform: uppercase;
-      font-size: 7.5px;
+      font-size: 7.7px;
       margin-bottom: 1px;
     }}
     .auth-sign-line {{
       display: flex;
       align-items: flex-end;
-      gap: 6px;
-      margin-top: 1.5px;
+      gap: 8px;
+      margin-top: 2px;
     }}
     .auth-sign-field {{
       flex: 1;
-      border-bottom: 1px dashed #64748b;
-      min-height: 11px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 7.3px;
+      border-bottom: 1.2px solid #475569;
+      min-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      font-family: "Brush Script MT", "Caveat", cursive, sans-serif;
+      font-size: 13px;
       color: #0f172a;
+      padding-left: 4px;
+      padding-bottom: 1px;
+    }}
+    .auth-date-field {{
+      width: 85px;
+      border-bottom: 1.2px solid #475569;
+      min-height: 20px;
+      font-family: ui-monospace, monospace;
+      font-size: 7.8px;
+      color: #334155;
+      text-align: center;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 1px;
+      white-space: nowrap;
+    }}
+    .auth-label {{
+      font-size: 6.9px;
+      color: #64748b;
+      text-transform: uppercase;
+      margin-top: 1.5px;
     }}
 
-    /* Bottom founder verification bar */
-    .founder-bar {{
+    /* 6. Executive Signature Footer */
+    .footer-container {{
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: #fbfbfa;
+      padding: 4.5px 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 2.5px;
-      border-top: 1px solid #e2e8f0;
+      gap: 12px;
+    }}
+    .footer-founder {{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+      min-width: 0;
+    }}
+    .founder-avatar {{
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1.5px solid #4f46e5;
+      flex-shrink: 0;
     }}
     .founder-info {{
       display: flex;
-      align-items: center;
-      gap: 6px;
+      flex-direction: column;
+      gap: 1px;
+      min-width: 0;
     }}
-    .founder-avatar {{
-      width: 19px;
-      height: 19px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 1px solid #cbd5e1;
-    }}
-    .founder-text {{
-      font-size: 7.3px;
-      color: #475569;
-    }}
-    .founder-text strong {{
+    .founder-name {{
+      font-size: 8.6px;
       color: #0f172a;
+      line-height: 1.18;
+      white-space: nowrap;
     }}
-    .demo-link {{
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 7.5px;
-      color: #4f46e5;
+    .founder-name strong {{
+      color: #0f172a;
+      font-weight: 800;
+    }}
+    .founder-company {{
+      font-size: 7.8px;
+      color: #334155;
+      line-height: 1.18;
+      white-space: nowrap;
+    }}
+    .founder-company strong {{
+      color: #1e293b;
       font-weight: 700;
-      text-decoration: none;
+    }}
+    .founder-sub {{
+      font-size: 7.4px;
+      color: #475569;
+      line-height: 1.18;
+      white-space: nowrap;
+    }}
+    .footer-brand {{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      flex-shrink: 0;
+    }}
+    .business-logo {{
+      height: 16px;
+      width: auto;
+      object-fit: contain;
+    }}
+    .demo-badge {{
+      font-size: 7.5px;
+      color: #4338ca;
       background: #eef2ff;
-      padding: 1px 4px;
-      border-radius: 3px;
       border: 1px solid #c7d2fe;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-weight: 700;
+      font-family: ui-monospace, monospace;
+      text-decoration: none;
+      white-space: nowrap;
     }}
   </style>
 </head>
 <body>
-<div class="sheet">
+<div class="page-container">
 
-  <!-- 1. Header Component -->
+  <!-- 1. Executive Header -->
   <div class="header">
-    <div class="brand-group">
-      <img src="data:image/png;base64,{logo_b64}" alt="BarakahSoft" class="brand-logo" />
-      <div class="brand-text">
-        <h1>CallGuard Ops • Part-Time Telephony Support Scope &amp; Rates</h1>
-        <div class="tagline">Enterprise AI Telephone Support • Make.com • Retell AI • Twilio • Wappi</div>
-      </div>
+    <div class="header-left">
+      <div class="brand-title">BarakahSoft LLC • Systems Architecture • Ref #BS-2026-STUART-01</div>
+      <h1>CallGuard Ops • AI Telephony Technical Support</h1>
+      <p class="subtitle">4-Vendor Telephony Stack Management • Make.com • Retell AI • Twilio UK • Wappi WhatsApp</p>
     </div>
-    <div class="doc-meta">
-      <div class="meta-badge">PART-TIME CONTRACTOR SCOPE</div>
-      <div>Estimate ID: <strong>EST-2026-STUART-CG02</strong></div>
-      <div>Date: <strong>September 16, 2026</strong> • Glasgow, UK</div>
-    </div>
-  </div>
-
-  <!-- 2. Systems Capability & Context Box -->
-  <div class="context-box">
-    <div class="context-grid">
-      <div class="context-item">
-        <strong>Client &amp; Organization</strong>
-        <span>Stuart &amp; Co • Glasgow, Scotland, UK (Construction/Manufacturing)</span>
-      </div>
-      <div class="context-item">
-        <strong>Supported Telephony Stack</strong>
-        <span>Make.com • Retell AI • Twilio UK • Wappi WhatsApp</span>
-      </div>
-      <div class="context-item">
-        <strong>Systems Engineering Profile</strong>
-        <span>12+ Years Enterprise Systems • Lead Eng Legiit ($1M ARR)</span>
-      </div>
-    </div>
-    <div class="exec-summary">
-      <strong>Role Purpose:</strong> Provide high-reliability part-time technical support, bug fixing, prompt tuning, and carrier resilience for Stuart &amp; Co's AI answering system. Built to guarantee zero dropped calls, eliminate Wappi 504 timeouts via Twilio SMS failover, and ensure full Scottish dialect entity extraction.
+    <div class="meta-card">
+      <div><strong>Client:</strong> Stuart &amp; Co (Manufacturing &amp; Construction · Glasgow, Scotland)</div>
+      <div><strong>Role:</strong> Part-Time AI Telephony Technical Support Officer</div>
+      <div><strong>Options:</strong> <strong>A: $50/hr (10h/wk min)</strong> | <strong>B: $80/hr (Adhoc On-Demand)</strong></div>
+      <div><strong>Live Diagnostic Cockpit:</strong> <span class="live-badge">Verified &amp; Operational</span></div>
     </div>
   </div>
 
-  <!-- 3. Technical Scope & Responsibility Matrix -->
-  <div class="table-container">
+  <!-- 2. Scope Table -->
+  <div class="scope-block">
+    <div class="section-header">
+      <h2 class="section-title">Technical Support Scope &amp; Operating Deliverables</h2>
+      <div class="section-meta">Live Cockpit: https://callguard-ops.vercel.app</div>
+    </div>
+
     <table>
       <thead>
         <tr>
-          <th style="width: 18%;">Domain Area</th>
-          <th style="width: 52%;">Core Technical Responsibilities &amp; Bug Fixing Focus</th>
-          <th style="width: 15%;">Resolution SLA</th>
-          <th class="num" style="width: 15%;">Coverage</th>
+          <th style="width: 12%;">Domain</th>
+          <th style="width: 58%;">Engineering Deliverables, Continuous Maintenance &amp; Bug Fixing Focus</th>
+          <th style="width: 10%; text-align: center;">Timeline</th>
+          <th style="width: 8%; text-align: center;">Coverage</th>
+          <th style="width: 12%; text-align: right;">Rate Base</th>
         </tr>
       </thead>
       <tbody>
-        <tr class="phase0">
-          <td><span class="phase-pill pill-live">WORKING PROOF</span></td>
-          <td><strong>Interactive Telephony Cockpit &amp; Diagnostics</strong> — Live verified demo at callguard-ops.vercel.app with call traces, Retell tuning bench, Make canvas &amp; Wappi tester.</td>
-          <td>Delivered Live</td>
-          <td class="num"><strong>Phase 0 Gift</strong></td>
+        <tr class="phase-0-row">
+          <td class="phase-num"><span class="phase-0-badge">Phase 0</span></td>
+          <td>
+            <div class="phase-name">Deployed CallGuard Ops Cockpit &amp; Diagnostic Suite (Delivered)</div>
+            <div class="phase-desc">Living diagnostic cockpit: 4-vendor trace visualizer, Scottish dialect voice tuning bench, Make.com scenario workbench, Wappi WhatsApp gateway simulator, and chaos outage tester.</div>
+          </td>
+          <td style="text-align: center; font-weight: 700; white-space: nowrap;">Live Now</td>
+          <td style="text-align: center; color: #4338ca; font-weight: 700;">Included</td>
+          <td style="text-align: right; font-weight: 800; color: #4338ca;">$0.00 (Live)</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">MAKE.COM</span></td>
-          <td><strong>Webhook Ingestion &amp; DLQ Error Handling</strong> — Fix webhook timeouts, manage 200 OK fast-acknowledgments, dead-letter queue retries, and 3-branch intent routing.</td>
-          <td>Same-Day (&lt;4h)</td>
-          <td class="num">Active Support</td>
+          <td class="phase-num">Phase 1</td>
+          <td>
+            <div class="phase-name">Retell AI Voice Agent Scottish Dialect &amp; Prompt Tuning</div>
+            <div class="phase-desc">Optimize conversational prompt latency (&lt;500ms), calibrate Glasgow/Scottish trade vocabulary (sparky, joiner, flashing, stopcock), eliminate hallucinated trade quotes, and bind structured post-call variables.</div>
+          </td>
+          <td style="text-align: center; font-weight: 600;">Continuous</td>
+          <td style="text-align: center; font-weight: 700;">Active</td>
+          <td style="text-align: right; font-weight: 700;">Option A / B</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">RETELL AI</span></td>
-          <td><strong>Voice Agent Tuning &amp; Dialect Calibration</strong> — Prompt optimization for Glaswegian trade vocabulary ("sparky", "joiner", "flashing") and sub-500ms voice latency.</td>
-          <td>Same-Day (&lt;4h)</td>
-          <td class="num">Active Support</td>
+          <td class="phase-num">Phase 2</td>
+          <td>
+            <div class="phase-name">Make.com Scenario Hardening &amp; Dead-Letter Queue (DLQ) Resilience</div>
+            <div class="phase-desc">Implement instant 200 OK webhook handshakes, Scottish E.164 phone normalizer (0141 -&gt; +44141), 3-tier intent router (Emergency / Quote / General), and auto-retry DLQ with exponential backoff on 504 timeouts.</div>
+          </td>
+          <td style="text-align: center; font-weight: 600;">Continuous</td>
+          <td style="text-align: center; font-weight: 700;">Active</td>
+          <td style="text-align: right; font-weight: 700;">Option A / B</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">WAPPI WHATSAPP</span></td>
-          <td><strong>Multi-Device Gateway &amp; Reconnects</strong> — Stabilize WhatsApp session instances, monitor heartbeat pings, and format post-call recap message payloads.</td>
-          <td>Priority (&lt;2h)</td>
-          <td class="num">Active Support</td>
+          <td class="phase-num">Phase 3</td>
+          <td>
+            <div class="phase-name">Wappi WhatsApp Gateway Session Management &amp; Sub-500ms Failover</div>
+            <div class="phase-desc">Monitor multi-device WhatsApp token heartbeats, automate post-call recap message dispatches, and enforce zero-downtime sub-500ms failover to Twilio UK SMS if Wappi drops session or throws 5xx errors.</div>
+          </td>
+          <td style="text-align: center; font-weight: 600;">Continuous</td>
+          <td style="text-align: center; font-weight: 700;">Active</td>
+          <td style="text-align: right; font-weight: 700;">Option A / B</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">TWILIO CARRIER</span></td>
-          <td><strong>SIP Trunking &amp; Sub-500ms SMS Fallback</strong> — Bridge Glasgow DDI (+44 141) media streams, E.164 regex phone sanitization, and automatic SMS failover when Wappi drops.</td>
-          <td>Critical (&lt;1h)</td>
-          <td class="num">Active Support</td>
+          <td class="phase-num">Phase 4</td>
+          <td>
+            <div class="phase-name">Twilio UK SIP Trunking, Carrier Reliability &amp; Webhook Health</div>
+            <div class="phase-desc">Maintain Glasgow DDI (+44 141) routing, media stream bidirectional bridging, caller ID sanitization, backup SIP trunk failover, and carrier compliance across UK mobile/landline networks.</div>
+          </td>
+          <td style="text-align: center; font-weight: 600;">Continuous</td>
+          <td style="text-align: center; font-weight: 700;">Active</td>
+          <td style="text-align: right; font-weight: 700;">Option A / B</td>
+        </tr>
+        <tr>
+          <td class="phase-num">Phase 5</td>
+          <td>
+            <div class="phase-name">Incident Triage, Root-Cause Postmortems &amp; Proactive Health Audits</div>
+            <div class="phase-desc">Rapid-response bug fixing, proactive weekly webhook log audits, Retell latency benchmarking, and preventative updates before vendor API changes impact live incoming client trade calls.</div>
+          </td>
+          <td style="text-align: center; font-weight: 600;">Continuous</td>
+          <td style="text-align: center; font-weight: 700;">Active</td>
+          <td style="text-align: right; font-weight: 700;">Option A / B</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="2" style="font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;">Total 4-Vendor Telephony Support Coverage (Make · Retell · Twilio · Wappi)</td>
+          <td style="text-align: center; font-weight: 800; white-space: nowrap;">Ongoing</td>
+          <td style="text-align: center; font-weight: 800;">100%</td>
+          <td style="text-align: right; font-weight: 800; font-family: ui-monospace, monospace; font-size: 9.8px;">$50/h or $80/h</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <!-- 4. Two Commercial Options -->
-  <div class="packages-grid">
-    <div class="package-card recommended">
-      <div class="package-header">
-        <span class="package-title">Option A: Part-Time Retainer (Recommended)</span>
-        <span class="package-rate">$50.00 / hr</span>
+  <!-- 3. 2-Column Technical & Financial Breakdown -->
+  <div class="grid-2col">
+    <div class="card-box">
+      <div class="card-box-title">Operating Engagement: Two Commercial Packages</div>
+      <div class="milestone-item">
+        <span class="milestone-name">Option A (Recommended): Part-Time Retainer (10h/wk min)</span>
+        <span class="milestone-val">$50.00/hr ($500/wk)</span>
       </div>
-      <div class="package-details">
-        <strong>10 Hours / Week Minimum Commitment ($500.00 / week)</strong>
-        <ul class="package-perks">
-          <li>Priority &lt;2 hour emergency response for any dropped calls or webhook errors.</li>
-          <li>Continuous prompt tuning, trade dictionary updates, and Make.com scenario maintenance.</li>
-          <li>Unused hours roll over bi-weekly; billed transparently via Upwork hourly tracker.</li>
-        </ul>
+      <div class="milestone-item">
+        <span class="milestone-name">Option B (Pure Adhoc): On-Demand Support (Zero min)</span>
+        <span class="milestone-val">$80.00/hr (As Needed)</span>
+      </div>
+      <div class="milestone-item">
+        <span class="milestone-name">Option A Emergency Response SLA (Call Drops / Outages)</span>
+        <span class="milestone-val">&lt; 2 Hours Priority</span>
+      </div>
+      <div class="milestone-item">
+        <span class="milestone-name">Weekly Proactive Webhook &amp; Gateway Health Audits</span>
+        <span class="milestone-val">Included in Option A</span>
+      </div>
+      <div class="milestone-item">
+        <span class="milestone-name">Upwork Work Diary Tracking &amp; Weekly Git Commits</span>
+        <span class="milestone-val">100% Transparent</span>
       </div>
     </div>
 
-    <div class="package-card">
-      <div class="package-header">
-        <span class="package-title">Option B: Pure Adhoc (Pay-As-You-Go)</span>
-        <span class="package-rate">$80.00 / hr</span>
+    <div class="card-box">
+      <div class="card-box-title">Deterministic Architecture Guardrails</div>
+      <div class="guardrail-item"><strong>Zero Dropped Calls Guarantee:</strong> Sub-500ms auto-failover to Twilio SMS if Wappi drops connection.</div>
+      <div class="guardrail-item"><strong>Fast 200 OK Handshakes:</strong> Decouples Retell from downstream webhooks to prevent call timeout drops.</div>
+      <div class="guardrail-item"><strong>Scottish Trade Slang Lexicon:</strong> Specialized prompt engineering tuned for Glasgow &amp; West Scotland accents.</div>
+      <div class="guardrail-item"><strong>Regex E.164 Normalization:</strong> Standardizes UK landlines (0141) and mobiles into international E.164.</div>
+      <div class="guardrail-item"><strong>Securiti Certified AI Governance:</strong> NIST AI RMF and OWASP Top 10 inline PII redaction and safety bounds.</div>
+    </div>
+  </div>
+
+  <!-- 4. Commercial Terms Section -->
+  <div class="terms-box">
+    <div class="terms-grid">
+      <div class="term-col">
+        <div class="term-title">Two Support Models</div>
+        <div class="term-body">Select Option A ($50/hr, 10h/wk min) for dedicated proactive coverage, or Option B ($80/hr) for pure on-demand fixes.</div>
       </div>
-      <div class="package-details">
-        <strong>Zero Weekly Minimum Commitment (Billed to the exact minute)</strong>
-        <ul class="package-perks">
-          <li>100% on-demand: call upon Shakil only when a bug or carrier outage occurs.</li>
-          <li>Can use for 1 hour, 30 minutes, or 5 hours as needed with zero retainers.</li>
-          <li>Standard 24-hour turnaround on non-emergency bug fixes.</li>
-        </ul>
+      <div class="term-col">
+        <div class="term-title">Transparent Tracking</div>
+        <div class="term-body">Every minute tracked via Upwork Work Diary with clear memo notes, test verification logs, and git commit references.</div>
+      </div>
+      <div class="term-col">
+        <div class="term-title">100% Client IP Ownership</div>
+        <div class="term-body">All Make.com blueprints, Retell prompt iterations, regex parsers, and custom webhook code belong 100% to Stuart &amp; Co.</div>
+      </div>
+      <div class="term-col">
+        <div class="term-title">Rapid Outage SLA</div>
+        <div class="term-body">Priority &lt;2-hour response window for critical call drops or webhook failures during UK operating hours (Option A).</div>
       </div>
     </div>
   </div>
 
-  <!-- 5. Telephony Architecture & Resilience Guardrails -->
-  <div class="guardrails-box">
-    <div class="guardrails-title">
-      <span>Multi-Vendor Architecture &amp; Reliability SLA</span>
-      <span style="font-family: ui-monospace; font-weight: normal; text-transform: none;">99.94% Uptime Target</span>
-    </div>
-    <div class="guardrails-grid">
-      <div class="guardrail-item">
-        <strong>Twilio UK SIP Trunk</strong>
-        Glasgow DDI (+44 141) bridge to Retell SIP URI (&lt;35ms latency).
-      </div>
-      <div class="guardrail-item">
-        <strong>Retell Voice Agent</strong>
-        ElevenLabs Turbo v2 Scottish model, sub-500ms voice turnaround.
-      </div>
-      <div class="guardrail-item">
-        <strong>Make.com Scenarios</strong>
-        DLQ exponential backoff retry; 0 dropped webhooks on network blips.
-      </div>
-      <div class="guardrail-item">
-        <strong>Wappi WhatsApp + SMS</strong>
-        WhatsApp dispatch with 450ms automatic failover to Twilio SMS.
-      </div>
-    </div>
-  </div>
-
-  <!-- 6. Formal Acceptance Authorization & Dual Signatures -->
+  <!-- 5. Formal Acceptance Authorization Block -->
   <div class="auth-block">
     <div class="auth-title">
-      <span>Mutual Engagement Authorization &amp; Sign-off</span>
-      <span style="font-size: 7.2px; font-weight: normal; color: #64748b;">Governed under Upwork Hourly Contract Terms</span>
+      <span>Formal Authorization &amp; Engagement Acceptance</span>
+      <span style="font-weight: 500; font-size: 7.3px; color: #475569;">Binding upon selection &amp; contract offer by authorized representatives</span>
     </div>
     <div class="auth-grid">
       <div class="auth-party">
-        <div class="auth-party-title">Client Representative (Stuart &amp; Co)</div>
-        <div>Name: <strong>Stuart</strong> • Owner / Director</div>
-        <div>Entity: <strong>Stuart &amp; Co Manufacturing &amp; Construction</strong> (Glasgow, UK)</div>
+        <div class="auth-party-title">Authorized Systems Architect: BarakahSoft LLC (Wyoming, USA)</div>
+        <div>Signatory: <strong>Md Shakil Ahmed</strong> • Principal AI Systems Architect &amp; Founder</div>
         <div class="auth-sign-line">
-          <span style="font-size: 7.3px; color: #64748b;">Signature:</span>
-          <div class="auth-sign-field">Authorized via Upwork Hourly Contract</div>
+          <div class="auth-sign-field">Shakil Ahmed</div>
+          <div class="auth-date-field">16 Sep 2026</div>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+          <span class="auth-label">Authorized Architect Signature</span>
+          <span class="auth-label" style="width: 85px; text-align: center;">Date</span>
         </div>
       </div>
+
       <div class="auth-party">
-        <div class="auth-party-title">Principal Systems Architect (Contractor)</div>
-        <div>Name: <strong>Shakil Ahmed</strong> • Founder &amp; Lead Systems Architect</div>
-        <div>Entity: <strong>BarakahSoft LLC</strong> • Verified Upwork Partner</div>
+        <div class="auth-party-title">Authorized Client: Stuart &amp; Co (Glasgow, Scotland, UK)</div>
+        <div>Signatory: <strong>Stuart</strong> • Managing Director</div>
         <div class="auth-sign-line">
-          <span style="font-size: 7.3px; color: #64748b;">Signature:</span>
-          <div class="auth-sign-field">Shakil Ahmed (Digital Verification: BarakahSoft LLC)</div>
+          <div class="auth-sign-field" style="color: #64748b; font-family: inherit; font-size: 7.8px; font-style: italic;">[ Accepted via Upwork Contract Offer / Sign-off ]</div>
+          <div class="auth-date-field">___ / ___ / 2026</div>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+          <span class="auth-label">Authorized Client Signature</span>
+          <span class="auth-label" style="width: 85px; text-align: center;">Date</span>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Founder Verification Bar -->
-  <div class="founder-bar">
-    <div class="founder-info">
-      <img src="data:image/jpeg;base64,{headshot_b64}" alt="Shakil Ahmed" class="founder-avatar" />
-      <div class="founder-text">
-        <strong>Shakil Ahmed</strong> • 12+ Yrs Exp • Former Lead Engineer at Legiit ($1M ARR Command Center) • Securiti Certified AI Architect • Verified Upwork Partner
+  <!-- 6. Executive Signature Footer -->
+  <div class="footer-container">
+    <div class="footer-founder">
+      <img src="data:image/jpeg;base64,{headshot_b64}" class="founder-avatar" alt="Md Shakil Ahmed">
+      <div class="founder-info">
+        <div class="founder-name"><strong>Md Shakil Ahmed</strong> • Principal AI Systems Architect &amp; Founder</div>
+        <div class="founder-company"><strong>BarakahSoft LLC</strong> • Verified Upwork Partner • 12+ Years Enterprise Systems Engineering</div>
+        <div class="founder-sub">Former Lead Systems Engineer at Legiit ($1M ARR Command Center) • Securiti Certified AI Architect</div>
       </div>
     </div>
-    <a href="https://callguard-ops.vercel.app" target="_blank" class="demo-link">
-      callguard-ops.vercel.app
-    </a>
+    <div class="footer-brand">
+      <img src="data:image/png;base64,{logo_b64}" class="business-logo" alt="BarakahSoft">
+      <a href="https://callguard-ops.vercel.app" class="demo-badge">LIVE COCKPIT: CALLGUARD-OPS.VERCEL.APP</a>
+    </div>
   </div>
 
 </div>
 </body>
-</html>
-"""
+</html>"""
 
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
+    print(f"✓ Generated {html_path}")
 
-    print("Saved estimate.html to:", html_path)
-
-    # Compile with Headless Chrome using absolute file URI
-    chrome_cmd = [
+    # Generate PDF using Headless Chrome
+    chrome_paths = [
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-        "--headless",
-        "--disable-gpu",
-        "--no-pdf-header-footer",
-        f"--print-to-pdf={pdf_path}",
-        f"file://{os.path.abspath(html_path)}"
+        "/Applications/Chromium.app/Contents/MacOS/Chromium",
+        "google-chrome",
+        "chromium",
     ]
+    chrome_bin = None
+    for p in chrome_paths:
+        if os.path.exists(p):
+            chrome_bin = p
+            break
 
-    res = subprocess.run(chrome_cmd, capture_output=True, text=True)
-    if res.returncode == 0:
-        print("Successfully generated ESTIMATE.pdf via Chrome Headless at:", pdf_path)
-        print("File size:", os.path.getsize(pdf_path), "bytes")
+    if chrome_bin:
+        cmd = [
+            chrome_bin,
+            "--headless=new",
+            "--disable-gpu",
+            "--no-pdf-header-footer",
+            f"--print-to-pdf={pdf_path}",
+            html_path
+        ]
+        res = subprocess.run(cmd, capture_output=True, text=True)
+        if res.returncode == 0:
+            print(f"✓ Generated PDF: {pdf_path}")
+        else:
+            print(f"⚠️ Headless Chrome PDF error: {res.stderr}")
+            return False
     else:
-        print("Chrome print-to-pdf error:", res.stderr, file=sys.stderr)
-        sys.exit(1)
+        print("⚠️ Chrome binary not found. PDF not generated automatically.")
+        return False
 
-    # Verify page count
-    with open(pdf_path, "rb") as f:
-        pdf_bytes = f.read()
-
-    pages = re.findall(rb"/Type\s*/Page[^s]", pdf_bytes)
-    print(f"Verified PDF page count: {len(pages)} page(s)")
-    if len(pages) != 1:
-        print(f"CRITICAL ERROR: Expected exactly 1 page, got {len(pages)}!", file=sys.stderr)
-        sys.exit(1)
+    # Validation
+    if os.path.exists(pdf_path):
+        with open(pdf_path, "rb") as f:
+            pdf_bytes = f.read()
+        pages = len(re.findall(rb"/Type\s*/Page[^s]", pdf_bytes))
+        size_kb = len(pdf_bytes) / 1024
+        print(f"PDF Audit: {pages} Page(s), {size_kb:.1f} KB")
+        if pages != 1:
+            print(f"❌ AUDIT FAILURE: PDF is {pages} pages (must be strictly 1 page).")
+            return False
+        else:
+            print("✓ AUDIT PASSED: Strictly 1 page zero-whitespace gold standard.")
+            return True
+    return False
 
 if __name__ == "__main__":
-    build_estimate()
+    success = build_estimate()
+    if not success:
+        sys.exit(1)

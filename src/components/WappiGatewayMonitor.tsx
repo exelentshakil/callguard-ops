@@ -25,11 +25,11 @@ export function WappiGatewayMonitor() {
   const getTemplateContent = () => {
     switch (messageType) {
       case 'EMERGENCY':
-        return `🚨 *Stuart & Co Emergency Response*\n\nHi Callum, we have logged your emergency water ingress report at *384 Great Western Road (G12 8QQ)*.\n\n👷 *Status:* Emergency On-Call Supervisor Alerted\n⏱️ *ETA:* < 90 Minutes\n📞 *Duty Contact:* 0141 946 8821\n\n_If you need to send photos of the damage, reply directly to this chat._`;
+        return `*Stuart & Co Emergency Dispatch*\nRef: EMG-GLA-9921\n\nCallum, emergency water ingress incident logged for 384 Great Western Road (G12 8QQ).\nStatus: Duty supervisor notified\nResponse window: Under 90 mins\nDirect Duty Line: 0141 946 8821\n\nPlease reply with site access notes or damage photos if required.`;
       case 'SITE_SURVEY':
-        return `🏗️ *Stuart & Co Construction*\n\nHi Fiona, thank you for calling. Your site survey has been provisionally booked:\n\n📍 *Site:* Station Road, Partick (G11 6PB)\n📅 *Slot:* Thursday, 2:00 PM\n👷 *Estimator:* Senior Survey Team\n\n_Please upload your DWG drawings or BOQ here: https://apex-stuart.co.uk/upload/QTE-PAR-4028_`;
+        return `*Stuart & Co Construction*\nRef: QTE-PAR-4028\n\nFiona, site survey consultation booked:\nLocation: Station Road, Partick (G11 6PB)\nScheduled: Thursday, 2:00 PM\nSurveyor: Senior Estimating Team\n\nUpload drawings or specification docs: https://apex-stuart.co.uk/upload/QTE-PAR-4028`;
       case 'PLANT_DELIVERY':
-        return `🚜 *Stuart & Co Plant Logistics*\n\nHi Rab, driver Gary is in transit with your 8-Ton Excavator (Ref #PLT-8821).\n\n📍 *Delivery Point:* Clydeside Yard, Gate 3 (G51 1HR)\n⏱️ *Estimated Arrival:* 10:45 AM\n\n_Gary has been notified to ring your mobile on approach._`;
+        return `*Stuart & Co Site Logistics*\nRef: PLT-CLY-8821\n\nRab, delivery scheduled for Clydeside Industrial Estate Gate 3 (G51 1HR).\nConsignment: 8T Plant delivery\nDriver: Gary (in transit)\nETA: 10:45 AM\n\nDriver instructed to call on approach. Yard contact: 0141 445 1092.`;
     }
   };
 
