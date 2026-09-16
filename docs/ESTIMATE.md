@@ -1,37 +1,47 @@
-# Production Scope & Formal Estimate
-## CallGuard Ops • AI Telephone Answering Support & Telephony Cockpit
-**Estimate ID**: `EST-2026-STUART-CG01`  
+# Part-Time Telephony Support Scope & Commercial Structure
+## CallGuard Ops • AI Telephone Answering Support for Stuart & Co
+**Estimate ID**: `EST-2026-STUART-CG02`  
 **Date**: September 16, 2026  
 **Client**: Stuart & Co (Manufacturing & Construction, Glasgow, Scotland, UK)  
 **Principal Systems Architect**: Shakil Ahmed • BarakahSoft LLC (Verified Upwork Partner, 12+ Yrs Exp)  
-**Calibrated Rate**: $32.00 / hr (Calibrated within client comfort zone, market average $30.54/hr)
+**Supported Stack**: Make.com, Retell AI, Twilio UK, Wappi WhatsApp
 
 ---
 
-### Executive Summary
-Stuart & Co operates an AI telephone answering system powered by Make.com, Retell AI, Twilio, and Wappi WhatsApp gateway. This engagement stabilizes the entire telephony pipeline by resolving webhook dropouts, implementing Make.com dead-letter queues (DLQ), tuning Retell prompts for Scottish trade dialects, normalizing Glasgow landlines to international E.164 format, and establishing an automatic sub-second failover to Twilio SMS whenever Wappi experiences session drops or HTTP 504 timeouts.
+### Executive Summary & Systems Profile
+Shakil Ahmed brings 12+ years of enterprise systems engineering (former Lead Systems Engineer at Legiit where he scaled the command center to $1M ARR across 1,500+ businesses). 
+
+For Stuart & Co's Glasgow telephone answering system, Shakil provides end-to-end technical support and bug fixing across Make.com, Retell AI, Twilio, and Wappi WhatsApp gateway to guarantee zero dropped calls, eliminate Wappi 504 timeouts via Twilio SMS failover, and ensure accurate Scottish trade dialect extraction.
 
 ---
 
-### Two-Track Engagement Model
+### Scope & Technical Responsibilities
 
-#### Track 1: Initial Stabilization Sprint (Capped 30 Hours @ $32/hr = $960.00)
-10-day targeted stabilization package covering all 4 telephony layers:
+| Domain Layer | Core Technical Responsibilities & Bug Fixing Focus | Resolution SLA | Coverage |
+| :--- | :--- | :---: | :---: |
+| **Phase 0 (Working Proof)** | **Interactive Telephony Cockpit & Multi-Vendor Diagnostics**<br>Live working prototype at `callguard-ops.vercel.app` testing call traces, Retell tuning bench, Make.com canvas & Wappi tester. | Delivered Live | **Phase 0 Gift** |
+| **Make.com** | **Webhook Ingestion & Dead-Letter Queue (DLQ) Retries**<br>Fix webhook dropouts, manage 200 OK fast-acknowledgments, dead-letter queue exponential backoff, and 3-way intent routing (Emergency / Quotes / General). | Same-Day (<4h) | Active Support |
+| **Retell AI** | **Voice Agent Tuning & Dialect Calibration**<br>Prompt optimization for Glaswegian trade vocabulary ("sparky", "joiner", "flashing", "consumer unit") and sub-500ms voice round-trip latency. | Same-Day (<4h) | Active Support |
+| **Wappi WhatsApp** | **Multi-Device Gateway & Reconnects**<br>Stabilize WhatsApp session instances, monitor heartbeat pings, and format post-call recap message payloads with quote links. | Priority (<2h) | Active Support |
+| **Twilio Carrier** | **SIP Trunking & Sub-500ms SMS Fallback**<br>Bridge Glasgow DDI (+44 141) media streams to Retell SIP URI, E.164 regex phone sanitization, and automatic SMS failover when Wappi drops. | Critical (<1h) | Active Support |
 
-| Phase / Milestone | Core Deliverables & Technical Scope | Duration | Hours | Amount |
-| :--- | :--- | :--- | :---: | :---: |
-| **Phase 0** | **Interactive Telephony Cockpit & Multi-Vendor Audit**<br>Working prototype deployed at `callguard-ops.vercel.app` with real-time call trace inspector, Retell prompt tuning bench, Make.com visual canvas, and Wappi monitor. | Immediate | 0.0 hrs | **$0.00 (Gift)** |
-| **Milestone 1** | **Make.com Scenario Audit & Dead-Letter Queue (DLQ)**<br>Fix webhook timeouts, add 200 OK fast-acknowledgment, build exponential retry queues, and optimize 3-branch intent router (Emergency / Quote / General). | 2 Days | 6.0 hrs | $192.00 |
-| **Milestone 2** | **Retell AI Scottish Voice Tuning & Latency Bench**<br>Tune system prompt for Glaswegian trade vocabulary ("sparky", "joiner", "flashing", "consumer unit"), optimize ElevenLabs Turbo v2 latency to <500ms voice turnaround. | 2 Days | 7.0 hrs | $224.00 |
-| **Milestone 3** | **Wappi WhatsApp API & Twilio SMS Failover Router**<br>Stabilize Wappi multi-device session, add automatic reconnect handler, and build Make.com router branch to trigger Twilio UK SMS within 450ms on Wappi 5xx errors. | 2 Days | 6.0 hrs | $192.00 |
-| **Milestone 4** | **E.164 Scottish Number Normalizer & CRM Pipeline**<br>Regex sanitization of Glasgow DDI landlines (`0141` -> `+44141`), Google Sheets / CRM lead sync, deduplication, and UK postcode routing. | 2 Days | 5.0 hrs | $160.00 |
-| **Milestone 5** | **Multi-Vendor Chaos Testing & Operational Handover**<br>Simulated fault injection across all 4 vendors, comprehensive runbook documentation, and team onboarding for adhoc support. | 2 Days | 6.0 hrs | $192.00 |
-| **TOTAL** | **Capped 30-Hour Stabilization Sprint** | **10 Days** | **30.0 hrs** | **$960.00** |
+---
 
-#### Track 2: Ongoing Adhoc Support Retainer (5–10 hrs/week @ $32/hr)
-- **Monthly Budget**: $640.00 – $1,280.00 / month.
-- **Scope**: On-demand bug fixes, prompt revisions for new trade services, carrier number porting assistance, and quarterly scenario optimizations.
-- **Commitment**: Zero minimum lock-in; billable on actual hours via Upwork hourly contract.
+### Two Commercial Options
+
+#### Option A: Dedicated Part-Time Retainer (Recommended)
+- **Hourly Rate**: **$50.00 / hr** (Matches client's top posted budget).
+- **Minimum Commitment**: **10 Hours / Week ($500.00 / week)**.
+- **SLA**: Priority <2 hour emergency response for any dropped calls or webhook errors.
+- **Scope**: Includes ongoing prompt tuning, trade dictionary updates, Make.com scenario maintenance, and weekly health audits.
+- **Billing**: Unused hours roll over bi-weekly; billed transparently via Upwork hourly tracker.
+
+#### Option B: Pure Adhoc (Pay-As-You-Go)
+- **Hourly Rate**: **$80.00 / hr** (Standard systems architect rate).
+- **Minimum Commitment**: **Zero Minimum Commitment** (Billed to the exact minute).
+- **Flexibility**: Can be used for 1 hour, 30 minutes, or 5 hours whenever a bug pops up.
+- **SLA**: Standard 24-hour turnaround on non-emergency bug fixes.
+- **Billing**: Billed strictly on actual time logged via Upwork desktop tracker.
 
 ---
 
@@ -43,7 +53,6 @@ Stuart & Co operates an AI telephone answering system powered by Make.com, Retel
 
 ---
 
-### Commercial Terms & Credentials
+### Verification & Credentials
 - **Code Ownership**: 100% client account ownership. Make blueprints, Retell prompt schemas, and Twilio scripts exported directly to client repositories.
-- **Warranty**: 14-day zero-defect warranty covering all bug fixes post-handover.
-- **Systems Architect**: Shakil Ahmed • 12+ Years Enterprise Systems Engineering • Securiti Certified AI Security & Governance Architect (Cert ID: `14B411BCE-14B411A3D-1451CFE76`) • Verified Upwork Partner (Never "Top Rated").
+- **Systems Architect**: Shakil Ahmed • 12+ Years Enterprise Systems Engineering • Former Lead Engineer at Legiit ($1M ARR Command Center) • Securiti Certified AI Security & Governance Architect (Cert ID: `14B411BCE-14B411A3D-1451CFE76`) • Verified Upwork Partner (Never "Top Rated").

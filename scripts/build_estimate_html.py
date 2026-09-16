@@ -3,7 +3,9 @@
 Production Scope & Formal Estimate Generator
 CallGuard Ops • AI Telephone Answering & Multi-Vendor Telephony Support Cockpit
 Client: Stuart & Co (Manufacturing & Construction, Glasgow, Scotland, UK)
-Two-Track Engagement Model: Initial Stabilization Sprint (30 hrs @ $32/hr = $960.00) + Adhoc Retainer
+Commercial Options:
+- Package A: Dedicated Part-Time Retainer ($50.00/hr, 10 hrs/wk min = $500/wk)
+- Package B: Pure Adhoc On-Demand ($80.00/hr, zero minimum commitment)
 Built to exact BarakahSoft Gold-Standard Architecture:
 - 6 Direct Flex Children (Zero Middle Void)
 - High-Density 6-Row Scope Table with Percentage Allocations
@@ -38,7 +40,7 @@ def build_estimate():
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Production Scope &amp; Formal Estimate - CallGuard Ops Telephony Support</title>
+  <title>Part-Time Telephony Support Scope &amp; Rate Structure - Stuart &amp; Co</title>
   <style>
     @page {{
       size: letter portrait;
@@ -92,13 +94,13 @@ def build_estimate():
     }}
     .brand-text h1 {{
       margin: 0;
-      font-size: 13.5px;
+      font-size: 13px;
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.02em;
     }}
     .brand-text .tagline {{
-      font-size: 7.8px;
+      font-size: 7.6px;
       color: #64748b;
       font-weight: 500;
     }}
@@ -120,7 +122,7 @@ def build_estimate():
       margin-bottom: 1.5px;
     }}
 
-    /* 2. Project Context Box */
+    /* 2. Systems Capability & Context Box */
     .context-box {{
       border: 1px solid #cbd5e1;
       border-radius: 6px;
@@ -129,14 +131,14 @@ def build_estimate():
     }}
     .context-grid {{
       display: grid;
-      grid-template-columns: 1.2fr 1fr 1fr;
+      grid-template-columns: 1.3fr 1fr 1fr;
       gap: 8px;
       font-size: 7.9px;
     }}
     .context-item strong {{
       color: #334155;
       display: block;
-      font-size: 7.5px;
+      font-size: 7.4px;
       text-transform: uppercase;
       letter-spacing: 0.04em;
       margin-bottom: 1px;
@@ -154,7 +156,7 @@ def build_estimate():
       line-height: 1.25;
     }}
 
-    /* 3. Scope & Milestone Table */
+    /* 3. Scope & Work Breakdown Table */
     .table-container {{
       border: 1px solid #cbd5e1;
       border-radius: 6px;
@@ -220,20 +222,66 @@ def build_estimate():
       border: 1px solid #c7d2fe;
     }}
 
-    /* 4. Architecture & Guardrails */
-    .guardrails-box {{
-      border: 1px solid #c7d2fe;
+    /* 4. Two Commercial Packages */
+    .packages-grid {{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }}
+    .package-card {{
+      border: 1.5px solid #c7d2fe;
       border-radius: 6px;
       background: #faf5ff;
       padding: 5px 8px;
     }}
-    .guardrails-title {{
-      font-size: 8px;
+    .package-card.recommended {{
+      border-color: #4f46e5;
+      background: #eef2ff;
+    }}
+    .package-header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3px;
+    }}
+    .package-title {{
+      font-weight: 800;
+      font-size: 8.5px;
+      color: #312e81;
+      text-transform: uppercase;
+    }}
+    .package-rate {{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 9.5px;
       font-weight: 800;
       color: #4338ca;
+    }}
+    .package-details {{
+      font-size: 7.6px;
+      color: #334155;
+      line-height: 1.3;
+    }}
+    .package-perks {{
+      margin: 2px 0 0 0;
+      padding-left: 12px;
+      font-size: 7.4px;
+      color: #475569;
+    }}
+
+    /* 5. Telephony Architecture & Resilience Guardrails */
+    .guardrails-box {{
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: #ffffff;
+      padding: 4.5px 8px;
+    }}
+    .guardrails-title {{
+      font-size: 7.8px;
+      font-weight: 800;
+      color: #0f172a;
       text-transform: uppercase;
       letter-spacing: 0.04em;
-      margin-bottom: 2.5px;
+      margin-bottom: 2px;
       display: flex;
       justify-content: space-between;
     }}
@@ -241,47 +289,20 @@ def build_estimate():
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 6px;
-      font-size: 7.6px;
+      font-size: 7.5px;
     }}
     .guardrail-item {{
-      background: #ffffff;
-      border: 1px solid #e0e7ff;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
       border-radius: 4px;
-      padding: 3.5px 5px;
+      padding: 3px 5px;
       color: #334155;
     }}
     .guardrail-item strong {{
       color: #4f46e5;
       display: block;
-      font-size: 7.4px;
+      font-size: 7.3px;
       margin-bottom: 1px;
-    }}
-
-    /* 5. Commercial Terms & Retainer */
-    .terms-box {{
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
-      background: #ffffff;
-      padding: 4.5px 8px;
-    }}
-    .terms-grid {{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 7px;
-    }}
-    .term-col {{
-      font-size: 7.7px;
-      line-height: 1.2;
-    }}
-    .term-title {{
-      font-weight: 800;
-      color: #4f46e5;
-      text-transform: uppercase;
-      font-size: 7.6px;
-      margin-bottom: 1px;
-    }}
-    .term-body {{
-      color: #475569;
     }}
 
     /* 6. Dual Signature Authorization Footer */
@@ -289,51 +310,51 @@ def build_estimate():
       border: 1px solid #94a3b8;
       border-radius: 6px;
       background: #f8fafc;
-      padding: 5px 8px;
+      padding: 4.5px 8px;
     }}
     .auth-title {{
-      font-size: 8.2px;
+      font-size: 8px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       color: #0f172a;
-      margin-bottom: 3px;
+      margin-bottom: 2.5px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-bottom: 1px solid #cbd5e1;
-      padding-bottom: 2px;
+      padding-bottom: 1.5px;
     }}
     .auth-grid {{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 12px;
+      gap: 10px;
     }}
     .auth-party {{
       display: flex;
       flex-direction: column;
-      gap: 1.5px;
-      font-size: 7.8px;
+      gap: 1px;
+      font-size: 7.7px;
     }}
     .auth-party-title {{
       font-weight: 700;
       color: #334155;
       text-transform: uppercase;
-      font-size: 7.6px;
+      font-size: 7.5px;
       margin-bottom: 1px;
     }}
     .auth-sign-line {{
       display: flex;
       align-items: flex-end;
       gap: 6px;
-      margin-top: 2px;
+      margin-top: 1.5px;
     }}
     .auth-sign-field {{
       flex: 1;
       border-bottom: 1px dashed #64748b;
-      min-height: 12px;
+      min-height: 11px;
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 7.4px;
+      font-size: 7.3px;
       color: #0f172a;
     }}
 
@@ -342,7 +363,7 @@ def build_estimate():
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 3px;
+      padding-top: 2.5px;
       border-top: 1px solid #e2e8f0;
     }}
     .founder-info {{
@@ -351,14 +372,14 @@ def build_estimate():
       gap: 6px;
     }}
     .founder-avatar {{
-      width: 20px;
-      height: 20px;
+      width: 19px;
+      height: 19px;
       border-radius: 50%;
       object-fit: cover;
       border: 1px solid #cbd5e1;
     }}
     .founder-text {{
-      font-size: 7.4px;
+      font-size: 7.3px;
       color: #475569;
     }}
     .founder-text strong {{
@@ -371,7 +392,7 @@ def build_estimate():
       font-weight: 700;
       text-decoration: none;
       background: #eef2ff;
-      padding: 1.5px 5px;
+      padding: 1px 4px;
       border-radius: 3px;
       border: 1px solid #c7d2fe;
     }}
@@ -385,103 +406,118 @@ def build_estimate():
     <div class="brand-group">
       <img src="data:image/png;base64,{logo_b64}" alt="BarakahSoft" class="brand-logo" />
       <div class="brand-text">
-        <h1>CallGuard Ops • Production Telephony Scope &amp; Estimate</h1>
+        <h1>CallGuard Ops • Part-Time Telephony Support Scope &amp; Rates</h1>
         <div class="tagline">Enterprise AI Telephone Support • Make.com • Retell AI • Twilio • Wappi</div>
       </div>
     </div>
     <div class="doc-meta">
-      <div class="meta-badge">STABILIZATION SPRINT SCOPE</div>
-      <div>Estimate ID: <strong>EST-2026-STUART-CG01</strong></div>
+      <div class="meta-badge">PART-TIME CONTRACTOR SCOPE</div>
+      <div>Estimate ID: <strong>EST-2026-STUART-CG02</strong></div>
       <div>Date: <strong>September 16, 2026</strong> • Glasgow, UK</div>
     </div>
   </div>
 
-  <!-- 2. Project Context Box -->
+  <!-- 2. Systems Capability & Context Box -->
   <div class="context-box">
     <div class="context-grid">
       <div class="context-item">
-        <strong>Client Organization &amp; Location</strong>
-        <span>Stuart &amp; Co • Glasgow, Scotland, UK (Mid-Sized Construction)</span>
+        <strong>Client &amp; Organization</strong>
+        <span>Stuart &amp; Co • Glasgow, Scotland, UK (Construction/Manufacturing)</span>
       </div>
       <div class="context-item">
-        <strong>Primary Answering Stack</strong>
+        <strong>Supported Telephony Stack</strong>
         <span>Make.com • Retell AI • Twilio UK • Wappi WhatsApp</span>
       </div>
       <div class="context-item">
-        <strong>Calibrated Rate &amp; Terms</strong>
-        <span>$32.00 / hr (Capped 30-Hr Sprint: $960.00)</span>
+        <strong>Systems Engineering Profile</strong>
+        <span>12+ Years Enterprise Systems • Lead Eng Legiit ($1M ARR)</span>
       </div>
     </div>
     <div class="exec-summary">
-      <strong>Scope Objective:</strong> Deliver immediate bug fixes, webhook resilience, and carrier failover for Stuart &amp; Co's AI answering system. Eliminates dropped calls, Wappi WhatsApp 504 timeouts (with instant Twilio SMS fallback), unhandled Scottish landlines (E.164 regex), and misrouted Scottish trade terms.
+      <strong>Role Purpose:</strong> Provide high-reliability part-time technical support, bug fixing, prompt tuning, and carrier resilience for Stuart &amp; Co's AI answering system. Built to guarantee zero dropped calls, eliminate Wappi 504 timeouts via Twilio SMS failover, and ensure full Scottish dialect entity extraction.
     </div>
   </div>
 
-  <!-- 3. Scope & Milestone Table (Mandatory 6 Rows) -->
+  <!-- 3. Technical Scope & Responsibility Matrix -->
   <div class="table-container">
     <table>
       <thead>
         <tr>
-          <th style="width: 16%;">Milestone</th>
-          <th style="width: 48%;">Core Deliverables &amp; Technical Scope</th>
-          <th style="width: 12%;">Duration</th>
-          <th class="num" style="width: 12%;">Hours</th>
-          <th class="num" style="width: 12%;">Amount</th>
+          <th style="width: 18%;">Domain Area</th>
+          <th style="width: 52%;">Core Technical Responsibilities &amp; Bug Fixing Focus</th>
+          <th style="width: 15%;">Resolution SLA</th>
+          <th class="num" style="width: 15%;">Coverage</th>
         </tr>
       </thead>
       <tbody>
         <tr class="phase0">
-          <td><span class="phase-pill pill-live">PHASE 0</span></td>
-          <td><strong>Interactive Telephony Cockpit &amp; Diagnostic Audit</strong> — Working live demo deployed with call traces, Retell tuning bench, Make canvas &amp; Wappi monitor.</td>
-          <td>Immediate</td>
-          <td class="num">0.0 hrs</td>
-          <td class="num"><strong>$0.00 (Gift)</strong></td>
+          <td><span class="phase-pill pill-live">WORKING PROOF</span></td>
+          <td><strong>Interactive Telephony Cockpit &amp; Diagnostics</strong> — Live verified demo at callguard-ops.vercel.app with call traces, Retell tuning bench, Make canvas &amp; Wappi tester.</td>
+          <td>Delivered Live</td>
+          <td class="num"><strong>Phase 0 Gift</strong></td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">MILESTONE 1</span></td>
-          <td><strong>Make.com Scenario Audit &amp; Dead-Letter Queue (DLQ)</strong> — Fix webhook timeouts, implement exponential retry queues, and optimize 3-way intent router.</td>
-          <td>2 Days</td>
-          <td class="num">6.0 hrs</td>
-          <td class="num">$192.00</td>
+          <td><span class="phase-pill pill-core">MAKE.COM</span></td>
+          <td><strong>Webhook Ingestion &amp; DLQ Error Handling</strong> — Fix webhook timeouts, manage 200 OK fast-acknowledgments, dead-letter queue retries, and 3-branch intent routing.</td>
+          <td>Same-Day (&lt;4h)</td>
+          <td class="num">Active Support</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">MILESTONE 2</span></td>
-          <td><strong>Retell AI Scottish Voice Tuning &amp; Latency Bench</strong> — Adapt system prompts for Glaswegian trade dialect, optimize ElevenLabs Turbo v2 (&lt;500ms voice round-trip).</td>
-          <td>2 Days</td>
-          <td class="num">7.0 hrs</td>
-          <td class="num">$224.00</td>
+          <td><span class="phase-pill pill-core">RETELL AI</span></td>
+          <td><strong>Voice Agent Tuning &amp; Dialect Calibration</strong> — Prompt optimization for Glaswegian trade vocabulary ("sparky", "joiner", "flashing") and sub-500ms voice latency.</td>
+          <td>Same-Day (&lt;4h)</td>
+          <td class="num">Active Support</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">MILESTONE 3</span></td>
-          <td><strong>Wappi WhatsApp Gateway &amp; Twilio SMS Failover</strong> — Stabilize multi-device sessions, add auto-reconnect, and route failed WhatsApp alerts to Twilio SMS in 450ms.</td>
-          <td>2 Days</td>
-          <td class="num">6.0 hrs</td>
-          <td class="num">$192.00</td>
+          <td><span class="phase-pill pill-core">WAPPI WHATSAPP</span></td>
+          <td><strong>Multi-Device Gateway &amp; Reconnects</strong> — Stabilize WhatsApp session instances, monitor heartbeat pings, and format post-call recap message payloads.</td>
+          <td>Priority (&lt;2h)</td>
+          <td class="num">Active Support</td>
         </tr>
         <tr>
-          <td><span class="phase-pill pill-core">MILESTONE 4</span></td>
-          <td><strong>E.164 Scottish Number Normalizer &amp; CRM Pipeline</strong> — Regex sanitization of Glasgow DDI landlines (0141 -&gt; +44141), Google Sheets/Airtable sync &amp; deduplication.</td>
-          <td>2 Days</td>
-          <td class="num">5.0 hrs</td>
-          <td class="num">$160.00</td>
-        </tr>
-        <tr>
-          <td><span class="phase-pill pill-core">MILESTONE 5</span></td>
-          <td><strong>Multi-Vendor Chaos Testing, Runbook &amp; Handover</strong> — End-to-end fault injection testing, operational documentation, and adhoc maintenance onboarding.</td>
-          <td>2 Days</td>
-          <td class="num">6.0 hrs</td>
-          <td class="num">$192.00</td>
-        </tr>
-        <tr class="total-row">
-          <td colspan="3"><strong>TOTAL PRODUCTION SCOPE (CAPPED STABILIZATION SPRINT)</strong></td>
-          <td class="num"><strong>30.0 hrs</strong></td>
-          <td class="num"><strong>$960.00</strong></td>
+          <td><span class="phase-pill pill-core">TWILIO CARRIER</span></td>
+          <td><strong>SIP Trunking &amp; Sub-500ms SMS Fallback</strong> — Bridge Glasgow DDI (+44 141) media streams, E.164 regex phone sanitization, and automatic SMS failover when Wappi drops.</td>
+          <td>Critical (&lt;1h)</td>
+          <td class="num">Active Support</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <!-- 4. Architecture & Resilience Matrix -->
+  <!-- 4. Two Commercial Options -->
+  <div class="packages-grid">
+    <div class="package-card recommended">
+      <div class="package-header">
+        <span class="package-title">Option A: Part-Time Retainer (Recommended)</span>
+        <span class="package-rate">$50.00 / hr</span>
+      </div>
+      <div class="package-details">
+        <strong>10 Hours / Week Minimum Commitment ($500.00 / week)</strong>
+        <ul class="package-perks">
+          <li>Priority &lt;2 hour emergency response for any dropped calls or webhook errors.</li>
+          <li>Continuous prompt tuning, trade dictionary updates, and Make.com scenario maintenance.</li>
+          <li>Unused hours roll over bi-weekly; billed transparently via Upwork hourly tracker.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="package-card">
+      <div class="package-header">
+        <span class="package-title">Option B: Pure Adhoc (Pay-As-You-Go)</span>
+        <span class="package-rate">$80.00 / hr</span>
+      </div>
+      <div class="package-details">
+        <strong>Zero Weekly Minimum Commitment (Billed to the exact minute)</strong>
+        <ul class="package-perks">
+          <li>100% on-demand: call upon Shakil only when a bug or carrier outage occurs.</li>
+          <li>Can use for 1 hour, 30 minutes, or 5 hours as needed with zero retainers.</li>
+          <li>Standard 24-hour turnaround on non-emergency bug fixes.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Telephony Architecture & Resilience Guardrails -->
   <div class="guardrails-box">
     <div class="guardrails-title">
       <span>Multi-Vendor Architecture &amp; Reliability SLA</span>
@@ -490,7 +526,7 @@ def build_estimate():
     <div class="guardrails-grid">
       <div class="guardrail-item">
         <strong>Twilio UK SIP Trunk</strong>
-        Glasgow DDI (+44 141) direct bridge to Retell SIP URI (&lt;35ms latency).
+        Glasgow DDI (+44 141) bridge to Retell SIP URI (&lt;35ms latency).
       </div>
       <div class="guardrail-item">
         <strong>Retell Voice Agent</strong>
@@ -507,28 +543,6 @@ def build_estimate():
     </div>
   </div>
 
-  <!-- 5. Commercial Terms & Retainer Option -->
-  <div class="terms-box">
-    <div class="terms-grid">
-      <div class="term-col">
-        <div class="term-title">Sprint Delivery</div>
-        <div class="term-body">10-day turnaround. Milestone releases verified against live call test scripts.</div>
-      </div>
-      <div class="term-col">
-        <div class="term-title">Two-Track Retainer</div>
-        <div class="term-body">Optional adhoc support at $32/hr (5-10 hrs/week) post-stabilization. Zero lock-in.</div>
-      </div>
-      <div class="term-col">
-        <div class="term-title">Code Ownership</div>
-        <div class="term-body">100% client account ownership. Make blueprints and Retell JSON exported.</div>
-      </div>
-      <div class="term-col">
-        <div class="term-title">Post-Launch Warranty</div>
-        <div class="term-body">14-day zero-defect warranty covering all bug fixes and scenario tuning.</div>
-      </div>
-    </div>
-  </div>
-
   <!-- 6. Formal Acceptance Authorization & Dual Signatures -->
   <div class="auth-block">
     <div class="auth-title">
@@ -541,8 +555,8 @@ def build_estimate():
         <div>Name: <strong>Stuart</strong> • Owner / Director</div>
         <div>Entity: <strong>Stuart &amp; Co Manufacturing &amp; Construction</strong> (Glasgow, UK)</div>
         <div class="auth-sign-line">
-          <span style="font-size: 7.4px; color: #64748b;">Signature:</span>
-          <div class="auth-sign-field">Authorized via Upwork Milestone / Contract Acceptance</div>
+          <span style="font-size: 7.3px; color: #64748b;">Signature:</span>
+          <div class="auth-sign-field">Authorized via Upwork Hourly Contract</div>
         </div>
       </div>
       <div class="auth-party">
@@ -550,7 +564,7 @@ def build_estimate():
         <div>Name: <strong>Shakil Ahmed</strong> • Founder &amp; Lead Systems Architect</div>
         <div>Entity: <strong>BarakahSoft LLC</strong> • Verified Upwork Partner</div>
         <div class="auth-sign-line">
-          <span style="font-size: 7.4px; color: #64748b;">Signature:</span>
+          <span style="font-size: 7.3px; color: #64748b;">Signature:</span>
           <div class="auth-sign-field">Shakil Ahmed (Digital Verification: BarakahSoft LLC)</div>
         </div>
       </div>
@@ -562,7 +576,7 @@ def build_estimate():
     <div class="founder-info">
       <img src="data:image/jpeg;base64,{headshot_b64}" alt="Shakil Ahmed" class="founder-avatar" />
       <div class="founder-text">
-        <strong>Shakil Ahmed</strong> • 12+ Yrs Exp • Former Lead Engineer at Legiit ($1M ARR Command Center) • Securiti Certified AI Architect (Cert ID: 14B411BCE-14B411A3D-1451CFE76)
+        <strong>Shakil Ahmed</strong> • 12+ Yrs Exp • Former Lead Engineer at Legiit ($1M ARR Command Center) • Securiti Certified AI Architect • Verified Upwork Partner
       </div>
     </div>
     <a href="https://callguard-ops.vercel.app" target="_blank" class="demo-link">
